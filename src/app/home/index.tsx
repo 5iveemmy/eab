@@ -165,7 +165,7 @@ export default function HomePage() {
       <section className="bg-[#EDF5FF] pt-28.75 pb-37">
         <div className="pr-6 pl-6 md:pr-35.5 md:pl-40.5">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-            <div className="w-full">
+            <div>
               <p className="mb-4 text-[40px] font-semibold md:text-[60px]">
                 The impact of EAB
               </p>
