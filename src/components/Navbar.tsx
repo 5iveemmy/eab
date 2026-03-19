@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 import { Link } from "react-router"
 import { Menu, X, ChevronDown, ChevronRight } from "lucide-react"
@@ -33,7 +31,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white">
       <div className="hidden items-center justify-between bg-[#EEEEEE] px-9 pb-5 lg:flex">
-        <select className="bg-[#F2F2F2] px-3 py-2 text-sm">
+        <select className="bg-[#FFFFFF] px-3 py-2 text-sm">
           <option>English</option>
         </select>
 

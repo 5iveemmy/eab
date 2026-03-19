@@ -224,7 +224,7 @@ export default function HomePage() {
                           />
                         </div>
                         <div className="w-full bg-[#EDF5FF] pt-4 md:pt-6 lg:w-[42%]">
-                          <p className="max-w-105 font-serif text-2xl leading-[106%] font-semibold md:text-[40px] md:leading-[100%] lg:text-[54px]">
+                          <p className="max-w-105 font-serif text-2xl leading-[106%] font-medium md:text-[40px] md:leading-[100%]">
                             {slide.title}
                           </p>
                           <p className="mt-5 max-w-110 text-lg leading-[160%] text-[#111827] md:mt-8 md:text-lg md:leading-[170%] lg:text-[20px]">
@@ -249,7 +249,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="lgflex-row flex flex-col justify-between gap-14 pt-22.25 pr-7.5 pb-20 pl-9.25 lg:pt-32.25 lg:pr-28.75 lg:pb-42.25 lg:pl-42.25">
+      <section className="flex flex-col justify-between gap-14 pt-22.25 pr-7.5 pb-20 pl-9.25 lg:flex-row lg:pt-32.25 lg:pr-28.75 lg:pb-42.25 lg:pl-42.25">
         <div className="max-w-117.5 space-y-7">
           <p className="font-serif text-[40px] leading-[100%] font-medium lg:text-[60px]">
             A little bit about our work at EAB
