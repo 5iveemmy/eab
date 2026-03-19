@@ -118,8 +118,6 @@
 
 html,
 body {
-  color: var(--foreground);
-  background-color: var(--background);
   font-family: "Source Serif 4", serif;
   scroll-behavior: smooth;
 
